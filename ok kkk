@@ -1,20 +1,9 @@
-setfpscap(7)
-repeat task.wait() until game:IsLoaded()
-repeat task.wait() until game.Players
-repeat task.wait() until game.Players.LocalPlayer
-UserSettings():GetService("UserGameSettings").MasterVolume = 0
-UserSettings():GetService("UserGameSettings").SavedQualityLevel = 1
-workspace.LevelOfDetail = Enum.ModelLevelOfDetail.Disabled
-game:GetService("Lighting").GlobalShadows = false
-game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.PlayerList, false)
-settings().Rendering.QualityLevel = Enum.QualityLevel.Level01
-settings().Rendering.MeshPartDetailLevel = Enum.MeshPartDetailLevel.Level04
-settings().Rendering.GraphicsMode = 9
-
 getgenv().GGFX_MODE = 1
 getgenv().GDO_HALLOWEEN_WORLD = true
 getgenv().GHALLOWEEN_WORLD_ALLOW_WORSE_EGG_PLACEMENT = true
+getgenv().GHALLOWEEN_WORLD_RECIPES_TO_DO = {3,4,5}
 getgenv().GHALLOWEEN_WORLD_HATCH_SPOTS = 2
+getgenv().GKEEP_CURRENCY_FOR_CRAFTS = "20m"
 getgenv().GHALLOWEEN_WORLD_USE_BOOSTS = true
 getgenv().GHALLOWEEN_WORLD_BUY_FROM_SPECIFIC_HOUSE = {1,2,3,4,5}
 getgenv().GHALLOWEEN_WORLD_BUY_FROM_HOUSES_BELOW = true
@@ -29,7 +18,7 @@ getgenv().GEVENT_UPGRADES = {
   "HalloweenHugeLuck",
   "HalloweenTitanicLuck"
 }
-getgenv().GWEBHOOK_USERID = "1254610781677289522"
+getgenv().GWEBHOOK_USERID = "872808640212512808"
 getgenv().GWEBHOOK_LINK = "https://discord.com/api/webhooks/1312555300808818768/sLXhl-mfBsOu8Wy_vfzP9tpu-DIDUmLGUkHzMOKzOzvSpB0PV4-glDoP_FFpSJRVET3_"
 getgenv().GHUGE_COUNT = 0 -- amount of huges to keep/not mail
 getgenv().GMAIL_RECEIVERS = {"zocance"} 
