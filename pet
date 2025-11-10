@@ -36,7 +36,7 @@ getgenv().Config = {
     },
     Webhook = {
         ID = '872808640212512808', -- Discord ID d? tag
-        IdNames = { 'Huge', 'Titanic' }, -- Pet c?n theo dõi
+        IdNames = { 'Huge', 'Titanic' ,'Gargantuan' }, -- Pet c?n theo dõi
         URL = 'https://discord.com/api/webhooks/1273988068306714624/ceue4Ub9x6hSmF_Ma1ZtmwkOlJRFFB5P9udM1qhiPpJk2sHeFnyPHMFqfLxI2x-7QTCO', -- URL webhook private
     },
 } 
