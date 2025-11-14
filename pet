@@ -40,5 +40,5 @@ getgenv().Config = {
         URL = 'https://discord.com/api/webhooks/1273988068306714624/ceue4Ub9x6hSmF_Ma1ZtmwkOlJRFFB5P9udM1qhiPpJk2sHeFnyPHMFqfLxI2x-7QTCO', -- URL webhook private
     },
 } 
-script_key="bRvjDYzhJXZeFCzifNbPlPwRFkjbeOdt";
+script_key="iTqmGLHJSPQIMuShMTnLdbcaqJHEfMcB";
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b9b3f5defc507615a3da8cb6e859d3cd.lua"))()
